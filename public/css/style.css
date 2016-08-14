@@ -103,7 +103,6 @@ a:hover {
     text-align: center;
     position: relative;
     bottom: 40px;
-    height: 1750px;
 }
 
 #geschikt1 {
@@ -113,6 +112,7 @@ a:hover {
     font-size: 40px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: bold;
+    display: none;
 }
 
 #geschikt2 {
@@ -122,6 +122,7 @@ a:hover {
     top: 60px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: bold;
+    display: none;
 }
 
 .contact1 {
@@ -142,6 +143,40 @@ a:hover {
     -webkit-transition: all 0.7 s ease;
     transition: all 0.7s ease;
 }
+
+.wat {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 200px;
+}
+
+.titel1 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+.service {
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+.bewerking {
+    padding-bottom: 200px;
+}
+
+.ondertekst1 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+
+
 
 @media screen and (min-width: 1217px) and (max-width: 1599px){
     .underbar ul li{
@@ -210,5 +245,9 @@ a:hover {
 
     #geschikt2 {
         font-size: 100px;
+    }
+
+    .bewerking {
+        padding-bottom: 0;
     }
 }

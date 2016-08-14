@@ -5,22 +5,33 @@ $( document ).ready(function() {
               if ($(document).scrollTop() > 50) {
                 $('.underbar').addClass('shrink');
                 $("#navlogo").addClass('shrinkimg');
+                $('.topbar').css('display', 'none');
               } else {
                 $('.underbar').removeClass('shrink');
                 $('#navlogo').removeClass('shrinkimg');
+                $('.topbar').css('display', 'block');
               }
           }
           var y = $(this).scrollTop();
           if (y > 300) {
-              $('#geschikt1').fadeIn(2000);
-          } else {
-              $('#geschikt1').css('display', 'none');
+              $('#geschikt1').fadeIn(1000);
+              $('#geschikt1').css('display', 'block');
+
           }
 
           if (y > 360) {
-              $('#geschikt2').fadeIn(2000);
-          } else {
-              $('#geschikt2').css('display', 'none');
+              $('#geschikt2').fadeIn(1000);
+              $('#geschikt2').css('display', 'block');
+          }
+
+          if (y > 360) {
+              $('#geschikt2').fadeIn(1000);
+              $('#geschikt2').css('display', 'block');
+          }
+
+          if (y > 2000) {
+              $('.service').fadeIn(2000);
+              $('.service').css('display', 'block');
           }
 
     });

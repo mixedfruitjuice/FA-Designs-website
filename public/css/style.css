@@ -175,7 +175,10 @@ a:hover {
     font-size: 18px;
 }
 
-
+.service {
+    position: relative;
+    top: 100px;
+}
 
 
 @media screen and (min-width: 1217px) and (max-width: 1599px){
@@ -249,5 +252,10 @@ a:hover {
 
     .bewerking {
         padding-bottom: 0;
+    }
+
+    .ondertekst1 {
+        font-size: 30px;
+        padding-bottom: 80px;
     }
 }

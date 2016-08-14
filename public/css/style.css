@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 270px;
+}
+
+.topbar {
+    background-color: #292A34;
+    height: 30px;
+    width: 100%;
+}
+
+.underbar {
+    background-color: #363845;
+    height: 250px;
+    width: 100%;
+    -webkit-transition: all 0.7 s ease;
+    transition: all 0.7s ease;
+}
+
+.navbar {
+    border: 0 !important;
+    position: fixed;
+}
+
+.shrink {
+    height: 60px;
+    -webkit-transition: all 0.7 s ease;
+    transition: all 0.7s ease;
+}
+
+.shrinkimg {
+    height: 45px;
+    width: 74px;
+}
+
+.homepic {
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+}
+
+.mail {
+    color: white;
+    position: relative;
+    left: 15%;
+    top: 1px;
+}
+
+.right {
+    top: 1px;
+    color: white;
+    float: right;
+    position: relative;
+    right: 15%;
+    padding-left: 30px;
+}
+
+.underbar ul li{
+    display: inline;
+    font-size: 30px;
+    position: relative;
+    color: white;
+    padding-right: 120px;
+
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.underbar ul {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.2 s ease;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+#home2  {
+    display: none;
+}
+
+.container {
+    width: 90% !important;
+}
+
+#homecomp {
+    min-width: 70%;
+    max-width: 100%;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.geschikt {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    height: 1750px;
+}
+
+#geschikt1 {
+    position: relative;
+    top: 70px;
+    color: #363845;
+    font-size: 40px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+}
+
+#geschikt2 {
+    position: relative;
+    color: #363845;
+    font-size: 150px;
+    top: 60px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+}
+
+.contact1 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: #363845;
+    font-size: 30px;
+    border: solid 5px #363845;
+    padding: 15px 90px;
+    -webkit-transition: all 0.7 s ease;
+    transition: all 0.7s ease;
+}
+
+.contact1:hover {
+    color: white;
+    font-size: 30px;
+    background-color:  #363845;
+    -webkit-transition: all 0.7 s ease;
+    transition: all 0.7s ease;
+}
+
+@media screen and (min-width: 1217px) and (max-width: 1599px){
+    .underbar ul li{
+        padding-right: 10px;
+    }
+
+    .shrink {
+        height: 80px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1216px) {
+    .underbar ul li{
+        padding-right: 10px;
+    }
+
+    .shrink {
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    .topbar {
+        display: none;
+    }
+
+    .underbar ul li{
+        display: block;
+        padding-right: 0;
+        font-size: 60px;
+    }
+
+    #home {
+        display: none;
+    }
+
+    #home2  {
+        display: block;
+    }
+
+    #navlogo2 {
+        height: 122px;
+        width: 200px;
+    }
+
+    .underbar {
+        height: 600px;
+    }
+
+    .homepic {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .navbar-fixed-top
+    {
+    position: relative !important;
+    top: auto;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    #geschikt2 {
+        font-size: 100px;
+    }
+}

@@ -8,7 +8,7 @@ $( document ).ready(function() {
     $(window).scroll(function() {
 
           if ((screen.width>=1024) && (screen.height>=768)) {
-              if ($(document).scrollTop() > 50) {
+              if ($(document).scrollTop() > 150) {
                   $('.underbar').addClass('shrink');
                   $("#navlogo").addClass('shrinkimg');
                   $('.topbar').css('display', 'none');

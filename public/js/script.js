@@ -5,9 +5,10 @@ $( document ).ready(function() {
         $('#geschikt2').css('display', 'block');
         $('.service').css('display', 'block');
     }
+
     $(window).scroll(function() {
 
-          if ((screen.width>=1024) && (screen.height>=768)) {
+          if ((screen.width>=1018) && (screen.height>=768)) {
               if ($(document).scrollTop() > 150) {
                   $('.underbar').addClass('shrink');
                   $("#navlogo").addClass('shrinkimg');

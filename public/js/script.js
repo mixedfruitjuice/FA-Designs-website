@@ -17,6 +17,10 @@ $( document ).ready(function() {
                   $('#navlogo').removeClass('shrinkimg');
                   $('.topbar').css('display', 'block');
               }
+
+              if ($(document).scrollTop() > 1000) {
+                  $('body').css('padding-top', '80px');
+              }
           }
 
 

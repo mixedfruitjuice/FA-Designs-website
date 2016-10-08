@@ -20,21 +20,21 @@ $( document ).ready(function() {
           }
 
 
-          var y = $(this).scrollTop();
-          if (y > 300) {
-              $('#geschikt1').fadeIn(1000);
-              $('#geschikt1').css('display', 'block');
-          }
-
-          if (y > 360) {
-              $('#geschikt2').fadeIn(1000);
-              $('#geschikt2').css('display', 'block');
-          }
-
-          if (y > 2000) {
-              $('.service').fadeIn(2000);
-              $('.service').css('display', 'block');
-          }
+        //   var y = $(this).scrollTop();
+        //   if (y > 300) {
+        //       $('#geschikt1').fadeIn(1000);
+        //       $('#geschikt1').css('display', 'block');
+        //   }
+          //
+        //   if (y > 360) {
+        //       $('#geschikt2').fadeIn(1000);
+        //       $('#geschikt2').css('display', 'block');
+        //   }
+          //
+        //   if (y > 2000) {
+        //       $('.service').fadeIn(2000);
+        //       $('.service').css('display', 'block');
+        //   }
 
     });
 });

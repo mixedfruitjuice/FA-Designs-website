@@ -5,6 +5,7 @@
 
 body {
     padding-top: 270px;
+    overflow-x: hidden;
 }
 
 .topbar {
@@ -112,7 +113,6 @@ a:hover {
     font-size: 40px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: bold;
-    display: none;
 }
 
 #geschikt2 {
@@ -122,7 +122,6 @@ a:hover {
     top: 60px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: bold;
-    display: none;
 }
 
 .contact1 {
@@ -162,7 +161,6 @@ a:hover {
 .service {
     text-align: center;
     color: white;
-    display: none;
 }
 
 .bewerking {
@@ -180,13 +178,171 @@ a:hover {
     top: 100px;
 }
 
-@media screen and (min-width: 1217px) and (max-width: 1599px){
+.cirkel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#started {
+    position: relative;
+    top: 170px;
+    color: #363845;
+    font-size: 200px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+}
+
+.startedwrap {
+    background-color: white;
+    position: relative;
+    top: 250px;
+    padding-bottom: 320px;
+    text-align: center;
+    width: 100%;
+}
+
+#quote1 {
+    position: relative;
+    top: 450px;
+    color: #363845;
+    font-size: 70px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: white !important;
+}
+
+.BelowHome {
+    text-align: center;
+    height: 2500px;
+}
+
+#homesuite {
+    position: relative;
+    top: 600px;
+    min-width: 50%;
+    max-width: 70%;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+#ondernemer1 {
+    position: relative;
+    top: 700px;
+    color: #363845;
+    font-size: 40px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#ondernemer2 {
+    position: relative;
+    color: #363845;
+    font-size: 150px;
+    top: 700px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.contact2 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    border: solid 5px white;
+    padding: 20px 80px;
+    -webkit-transition: all 0.7 s ease;
+    transition: all 0.7s ease;
+    position: relative;
+    top: 800px;
+}
+
+.contact2:hover {
+    color: #363845;
+    font-size: 30px;
+    background-color: white;
+    -webkit-transition: all 0.7 s ease;
+    transition: all 0.7s ease;
+}
+
+footer {
+    background-color: #292A34;
+    padding-top: 200px;
+    padding-left: 100px;
+    height: 100%;
+    padding-bottom: 200px;
+}
+
+#footerlogo {
+    position: relative;
+    bottom: 70px;
+}
+
+#watfooter {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 45px;
+    border-bottom: 10px solid white;
+    color: white;
+}
+
+.footerlink {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.footerlink:hover {
+    border-bottom: solid white 5px;
+    color: white;
+    padding: 0;
+}
+
+.footerlinkul {
+    text-decoration: none;
+    list-style:none;
+}
+
+.footerlinkul li {
+    margin-bottom: 10px;
+}
+
+.footerlinks {
+    padding-left: 90px;
+}
+
+.footerlinks2 {
+    padding-left: 120px;
+}
+
+.footericon {
+    position: relative !important;
+    top: 15px;
+    right: 270px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1599px){
     .underbar ul li{
         padding-right: 10px;
     }
 
     .shrink {
         height: 80px;
+    }
+
+    .footerlinks {
+        position: relative;
+        left: 120px;
+    }
+
+    .footerlinks2 {
+        position: relative;
+        left: 90px;
     }
 
 }
@@ -257,4 +413,37 @@ a:hover {
         font-size: 30px;
         padding-bottom: 80px;
     }
+
+    #started {
+        font-size: 120px;
+    }
+
+    #ondernemer2 {
+        font-size: 70px;
+    }
+
+    .footerlinks2 {
+        padding-top: 20px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        padding-top: 200px;
+    }
+
+    .footerlinks {
+        position: relative !important;
+        right: 40px !important;
+    }
+
+    .footerlinks2 {
+        position: relative !important;
+        right: 50px !important;
+        padding-bottom: 15px;
+    }
+
+
+
 }

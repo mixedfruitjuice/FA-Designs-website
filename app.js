@@ -13,6 +13,15 @@ app.get('/kernwaarden', function(req, res) {
     res.render('kernwaarden');
 });
 
+app.get('/over', function(req, res) {
+    res.render('over');
+});
+
+app.get('/contact', function(req, res) {
+    res.render('contact');
+});
+
+
 app.listen(5000, function(err) {
     console.log('Server is running on port 5000');
 });

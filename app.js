@@ -9,6 +9,10 @@ app.get('/', function(req, res) {
     res.render('index');
 });
 
+app.get('/kernwaarden', function(req, res) {
+    res.render('kernwaarden');
+});
+
 app.listen(5000, function(err) {
     console.log('Server is running on port 5000');
 });

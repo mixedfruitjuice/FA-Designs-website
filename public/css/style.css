@@ -106,6 +106,30 @@ a:hover {
     bottom: 40px;
 }
 
+.quote2wrap {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    padding-bottom: 350px;
+}
+
+.quote3wrap {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    padding-bottom: 250px;
+
+}
+
+.quote4wrap {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    padding-bottom: 250px;
+    background-color: white;
+}
+
 #geschikt1 {
     position: relative;
     top: 70px;
@@ -194,10 +218,45 @@ a:hover {
     font-weight: bold;
 }
 
+#started2 {
+    position: relative;
+    top: 170px;
+    color: white;
+    font-size: 200px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+}
+
+#kernwaardentekst {
+    position: relative;
+    color: white;
+    top: 165px;
+    font-size: 140px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+}
+
 .startedwrap {
     background-color: white;
     position: relative;
     top: 250px;
+    padding-bottom: 320px;
+    text-align: center;
+    width: 100%;
+}
+
+.startedwrap2 {
+    background-color: #363845;
+    position: relative;
+    padding-bottom: 320px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.kernwaardenwrap {
+    background-color: #363845;
+    position: relative;
     padding-bottom: 320px;
     text-align: center;
     width: 100%;
@@ -209,8 +268,41 @@ a:hover {
     color: #363845;
     font-size: 70px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: bold;
     color: white !important;
+}
+
+#quote2 {
+    position: relative;
+    top: 180px;
+    font-size: 60px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #363845;
+}
+
+#quote3 {
+    position: relative;
+    top: 125px;
+    font-size: 60px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: white;
+}
+
+#quote4 {
+    position: relative;
+    top: 140px;
+    font-size: 60px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #363845;
+
+}
+
+#quote4weten {
+    position: relative;
+    top: 60px;
+    font-size: 70px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #363845;
+
 }
 
 .BelowHome {
@@ -345,6 +437,10 @@ footer {
         left: 90px;
     }
 
+    #kernwaardentekst {
+        font-size: 100px;
+    }
+
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1216px) {
@@ -355,9 +451,17 @@ footer {
     .shrink {
         height: 140px;
     }
+
+    #kernwaardentekst {
+        font-size: 100px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
+
+    #kernwaardentekst {
+        font-size: 60px;
+    }
 
     .topbar {
         display: none;
@@ -415,6 +519,10 @@ footer {
     }
 
     #started {
+        font-size: 120px;
+    }
+
+    #started2 {
         font-size: 120px;
     }
 

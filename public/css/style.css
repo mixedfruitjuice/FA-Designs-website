@@ -28,18 +28,39 @@ body {
 }
 
 .shrink {
-    height: 60px;
+    height: 100px;
     -webkit-transition: all 0.7 s ease;
     transition: all 0.7s ease;
 }
 
 .shrinkimg {
-    height: 45px;
-    width: 74px;
+    height: 66px;
+    width: 80px;
+}
+
+.fotomettekst {
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+
+.fotomettekst b{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
 }
 
 .homepic {
     position: relative;
+    width: 100%;
+    min-width: 100%;
+}
+
+.kernwaardenpic {
+    position: relative;
+    height: 100%;
+    min-height: 100%;
     width: 100%;
     min-width: 100%;
 }
@@ -374,9 +395,19 @@ a:hover {
     color: #363845;
 }
 
+#quote8 {
+    color: white;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 50px;
+    position: absolute;
+    left: 0;
+    top: 300px;
+}
+
 .BelowHome {
     text-align: center;
-    height: 2500px;
+    height: 100%;
+    padding-bottom: 1000px;
 }
 
 #homesuite {
@@ -431,6 +462,19 @@ a:hover {
     top: 800px;
 }
 
+.contact5 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    border: solid 5px white;
+    padding: 20px 80px;
+    -webkit-transition: all 0.7 s ease;
+    transition: all 0.7s ease;
+    position: relative;
+    top: 200px;
+}
+
 .contact2:hover {
     color: #363845;
     font-size: 30px;
@@ -439,7 +483,13 @@ a:hover {
     transition: all 0.7s ease;
 }
 
-
+.contact5:hover {
+    color: #363845;
+    font-size: 30px;
+    background-color: white;
+    -webkit-transition: all 0.7 s ease;
+    transition: all 0.7s ease;
+}
 
 footer {
     background-color: #292A34;
@@ -451,7 +501,6 @@ footer {
 
 #footerlogo {
     position: relative;
-    bottom: 70px;
 }
 
 #watfooter {
@@ -499,37 +548,33 @@ footer {
     right: 270px;
 }
 
+#kvknummer {
+    position: relative;
+    color: white;
+    left: 15px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1599px){
     .underbar ul li{
-        padding-right: 10px;
+        padding-right: 50px;
     }
 
     .shrink {
         height: 80px;
     }
 
-    .footerlinks {
-        position: relative;
-        left: 120px;
-    }
-
-    .footerlinks2 {
-        position: relative;
-        left: 90px;
-    }
-
     #kernwaardentekst {
         font-size: 100px;
     }
 
-
-
+    .formwrap {
+        position: relative;
+        left: 200px;
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1216px) {
-    .underbar ul li{
-        padding-right: 10px;
-    }
 
     .shrink {
         height: 140px;
@@ -537,6 +582,15 @@ footer {
 
     #kernwaardentekst {
         font-size: 100px;
+    }
+
+    .underbar ul li{
+        padding-right: 40px;
+    }
+
+    .formwrap {
+        position: relative;
+        left: 200px;
     }
 }
 
@@ -566,7 +620,7 @@ footer {
 
     #navlogo2 {
         height: 122px;
-        width: 200px;
+        width: 147px;
     }
 
     .underbar {
@@ -639,5 +693,22 @@ footer {
         font-size: 100px;
     }
 
+    .kernwaardenpic {
+        display: none;
+    }
+
+    #quote8 {
+        position: relative;
+        top:0;
+    }
+
+    .contact5 {
+        top: 50px;
+    }
+
+    .fotomettekst {
+        height: 500px;
+        text-align: center;
+    }
 
 }

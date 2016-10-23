@@ -21,6 +21,9 @@ app.get('/contact', function(req, res) {
     res.render('contact');
 });
 
+app.get('/services', function(req, res) {
+    res.render('services');
+});
 
 app.listen(5000, function(err) {
     console.log('Server is running on port 5000');

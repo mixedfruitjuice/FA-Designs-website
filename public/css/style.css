@@ -239,7 +239,7 @@ a:hover {
     font-weight: bold;
     color: white;
     text-align: center;
-    font-size: 200px;
+    font-size: 120px;
 }
 
 .titel1 {
@@ -262,6 +262,39 @@ a:hover {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     color: white;
     font-size: 18px;
+}
+
+.designs {
+    position: relative;
+    bottom: 40px;
+}
+#designtekst {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #363845;
+    font-size: 300px;
+    font-weight: bold;
+}
+
+#designmidden {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #363845;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.designonder {
+    position: relative;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #363845;
+    font-size: 20px;
+}
+
+.design1 {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .service {
@@ -576,6 +609,10 @@ footer {
 
 @media screen and (min-width: 1024px) and (max-width: 1216px) {
 
+    #designtekst {
+        font-size: 220px;
+    }
+
     .shrink {
         height: 140px;
     }
@@ -595,6 +632,10 @@ footer {
 }
 
 @media screen and (max-width: 1023px) {
+
+    #designtekst {
+        font-size: 100px;
+    }
 
     #kernwaardentekst {
         font-size: 60px;
